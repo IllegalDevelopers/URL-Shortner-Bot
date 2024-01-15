@@ -21,7 +21,7 @@ API_ID = int(os.environ.get("API_ID", "21655449"))
 API_HASH = os.environ.get("API_HASH", "112be9974e163f6dbd645ce4b94f4e6a")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "6803138928:AAHwWYpbnoyKilaiUsFEYTNorsVNya6CEIY")  # Bot token from @BotFather
 ADMINS = (
-    [int(i.strip()) for i in os.environ.get("ADMINS").split(",")]
+    [int(i.strip()) for i in os.environ.get("ADMINS", "1229852181").split(",")]
     if os.environ.get("ADMINS")
     else []
 )
