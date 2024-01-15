@@ -21,36 +21,34 @@ Method: {}
 Shortener website: {}
 """
 
-HELP_MESSAGE = """Hey there! My name is {firstname} and I'm a link convertor and shortener bot here to make your work easier and help you earn more 💰.
+HELP_MESSAGE = """<b>ʜᴇʏ ᴛʜᴇʀᴇ! ᴍʏ ɴᴀᴍᴇ ɪꜱ {firstname} ᴀɴᴅ ɪ'ᴍ ᴀ ʟɪɴᴋ ᴄᴏɴᴠᴇʀᴛᴏʀ ᴀɴᴅ ꜱʜᴏʀᴛᴇɴᴇʀ ʙᴏᴛ ʜᴇʀᴇ ᴛᴏ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴡᴏʀᴋ ᴇᴀꜱɪᴇʀ ᴀɴᴅ ʜᴇʟᴘ ʏᴏᴜ ᴇᴀʀɴ ᴍᴏʀᴇ 💰.
 
-I have a ton of handy features to help you out, such as:
+ɪ ʜᴀᴠᴇ ᴀ ᴛᴏɴ ᴏꜰ ʜᴀɴᴅʏ ꜰᴇᴀᴛᴜʀᴇꜱ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴏᴜᴛ, ꜱᴜᴄʜ ᴀꜱ:
 
-- [Hyperlink](https://t.me/{username}) support 🔗
-- Button conversion support 🔘
-- Domain inclusion and exclusion options 🌐
-- Header and footer text support 📝
-- Replace username function 📎
-- Banner image support 🖼️
-- Batch conversion for channel admins only 📊
-- Channel support for admins only 📢
+- [ʜʏᴘᴇʀʟɪɴᴋ](https://t.me/{username}) ꜱᴜᴘᴘᴏʀᴛ 🔗
+- ʙᴜᴛᴛᴏɴ ᴄᴏɴᴠᴇʀꜱɪᴏɴ ꜱᴜᴘᴘᴏʀᴛ 🔘
+- ᴅᴏᴍᴀɪɴ ɪɴᴄʟᴜꜱɪᴏɴ ᴀɴᴅ ᴇxᴄʟᴜꜱɪᴏɴ ᴏᴘᴛɪᴏɴꜱ 🌐
+- ʜᴇᴀᴅᴇʀ ᴀɴᴅ ꜰᴏᴏᴛᴇʀ ᴛᴇxᴛ ꜱᴜᴘᴘᴏʀᴛ 📝
+- ʀᴇᴘʟᴀᴄᴇ ᴜꜱᴇʀɴᴀᴍᴇ ꜰᴜɴᴄᴛɪᴏɴ 📎
+- ʙᴀɴɴᴇʀ ɪᴍᴀɢᴇ ꜱᴜᴘᴘᴏʀᴛ 🖼️
+- ʙᴀᴛᴄʜ ᴄᴏɴᴠᴇʀꜱɪᴏɴ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴀᴅᴍɪɴꜱ ᴏɴʟʏ 📊
+- ᴄʜᴀɴɴᴇʟ ꜱᴜᴘᴘᴏʀᴛ ꜰᴏʀ ᴀᴅᴍɪɴꜱ ᴏɴʟʏ 📢
 
-Useful commands:
+ᴜꜱᴇꜰᴜʟ ᴄᴏᴍᴍᴀɴᴅꜱ:
 
-- /start: Start me up! You probably already used this.
-- /help: Send this message; I'll tell you more about myself!
-- /batch -100xxx: To shorten or convert all posts in your channel
-"""
+- /start: ꜱᴛᴀʀᴛ ᴍᴇ ᴜᴘ! ʏᴏᴜ ᴘʀᴏʙᴀʙʟʏ ᴀʟʀᴇᴀᴅʏ ᴜꜱᴇᴅ ᴛʜɪꜱ.
+- /help: ꜱᴇɴᴅ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ; ɪ'ʟʟ ᴛᴇʟʟ ʏᴏᴜ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍʏꜱᴇʟꜰ!
+- /batch -100xxx: ᴛᴏ ꜱʜᴏʀᴛᴇɴ ᴏʀ ᴄᴏɴᴠᴇʀᴛ ᴀʟʟ ᴘᴏꜱᴛꜱ ɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ</b>"""
 
 ABOUT_TEXT = """
 **My Details:**
 
 `🤖 Name:` ** {} **
     
-`📝 Language:` [Python 3](https://www.python.org/)
-`🧰 Framework:` [Pyrogram](https://github.com/pyrogram/pyrogram)
-`👨‍💻 Developer:` [Dev](t.me/ask_admin001)
-`📢 Support:` [Talk Bot](https://t.me/ask_admin001)
-`🌐 Source Code:` [GitHub](https://github.com/kevinnadar22/URL-Shortener-V2/)
+`📝 𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎:` [Python 3](https://www.python.org/)
+`👨‍💻 Developer:` [Dev](t.me/IllegalDeveloperBot)
+`📢 Support:` [Talk Bot](t.me/IllegalDeveloperBot)
+`🌐 Source Code:` [GitHub](t.me/IllegalDeveloperBot)
 """
 
 
