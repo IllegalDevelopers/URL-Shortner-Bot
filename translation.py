@@ -13,9 +13,9 @@ I'll handle the rest and get those links shortened or converted in a short time!
 
 START_MESSAGE = """Hi there {} 
 
-Send me a link or post and I'll shorten it for you!
+Send Me A Link or Post And I'll Shorten It For You!
 
-To learn more about what I can do, just type /help.
+To Learn More About What I Can Do, Just Type /help.
 
 Method: {}
 Shortener website: {}
@@ -45,10 +45,10 @@ ABOUT_TEXT = """
 
 `🤖 Name:` ** {} **
     
-`📝 𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎:` [Python 3](https://www.python.org/)
-`👨‍💻 Developer:` [Dev](t.me/IllegalDeveloperBot)
-`📢 Support:` [Talk Bot](t.me/IllegalDeveloperBot)
-`🌐 Source Code:` [GitHub](t.me/IllegalDeveloperBot)
+`📝 𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎:` [𝙿𝚊𝚢𝚝𝚑𝚘𝚗 𝟹](https://www.python.org/)
+`👨‍💻 Developer:` [𝙳𝚎𝚟](t.me/IllegalDeveloperBot)
+`📢 Support:` [𝚃𝚊𝚕𝚔 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛](t.me/IllegalDeveloperBot)
+`🌐 Source Code:` [𝙶𝚒𝚝𝙷𝚞𝚋](t.me/IllegalDeveloperBot)
 """
 
 
@@ -89,16 +89,15 @@ Here is a list of the channels:
 HELP_REPLY_MARKUP = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("Methods", callback_data="method_command"),
-            InlineKeyboardButton("Batch", callback_data="cbatch_command"),
+            InlineKeyboardButton("Batch Mode", callback_data="cbatch_command"),
+            InlineKeyboardButton("Shortner Mode", callback_data="cshortner_command"),
         ],
         [
             InlineKeyboardButton("Custom Alias", callback_data="alias_conf"),
-            InlineKeyboardButton("Admins", callback_data="admins_list"),
         ],
         [
-            InlineKeyboardButton("Channels", callback_data="channels_list"),
             InlineKeyboardButton("Home", callback_data="start_command"),
+            InlineKeyboardButton("Close", callback_data="delete"),
         ],
     ]
 )
@@ -121,8 +120,8 @@ START_MESSAGE_REPLY_MARKUP = InlineKeyboardMarkup(
             InlineKeyboardButton("About", callback_data="about_command"),
         ],
         [
-            InlineKeyboardButton("Method", callback_data="method_command"),
-            InlineKeyboardButton("Close", callback_data="delete"),
+            InlineKeyboardButton("Update", url="https://t.me/Illegal_Developer"),
+            InlineKeyboardButton("Support", url="https://t.me/Illegal_Supports"),
         ],
     ]
 )
