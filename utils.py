@@ -380,8 +380,7 @@ async def create_server():
 async def set_commands(app):
     COMMANDS = [
         BotCommand("start", "Used to start the bot."),
-        BotCommand("help", "Displays the help command."),
-        BotCommand("about", "Displays information about the bot."),
+        BotCommand("base_site", "Changes the base site."),
         BotCommand("shortener_api", "Sets the shortener API."),
         BotCommand("header", "Sets the header."),
         BotCommand("footer", "Sets the footer."),
@@ -391,11 +390,5 @@ async def set_commands(app):
         BotCommand("include_domain", "Sets the included domain."),
         BotCommand("exclude_domain", "Sets the excluded domain."),
         BotCommand("batch", "Converts link for multiple posts (admin only)."),
-        BotCommand("logs", "Sends the log messages (admin only)."),
-        BotCommand("restart", "Restarts or re-deploys the server (admin only)."),
-        BotCommand("ban", "Bans users (admin only)."),
-        BotCommand("unban", "Unbans users (admin only)."),
-        BotCommand("info", "Gets user info (admin only)."),
     ]
-
     await app.set_bot_commands(COMMANDS)
