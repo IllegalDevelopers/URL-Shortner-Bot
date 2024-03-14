@@ -28,8 +28,8 @@ ADMINS = (
 
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 DATABASE_URL = os.environ.get(
-    "mongodb+srv://yerikax810:je4khpqSXxKCViTe@cluster0.khhmzcs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None
-)  # mongodb uri from https://www.mongodb.com/
+    "DATABASE_URL", None
+)  # mongodb+srv://yerikax810:je4khpqSXxKCViTe@cluster0.khhmzcs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 OWNER_ID = int(os.environ.get("OWNER_ID", "1229852181"))  # id of the owner
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 
