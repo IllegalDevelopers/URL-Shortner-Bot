@@ -19,7 +19,7 @@ def is_enabled(value, default):
 API_ID = int(os.environ.get("API_ID", "21655449"))
 # API Hash from https://my.telegram.org/auth
 API_HASH = os.environ.get("API_HASH", "112be9974e163f6dbd645ce4b94f4e6a")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "6604995595:AAHTDo20VG2LpjQW-Z8OE2GGfGQS_yeQV38")  # Bot token from @BotFather
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7717413213:AAF5ziOLOymWHY1Lluj7yFC4U9OwbCOL9Qk")  # Bot token from @BotFather
 ADMINS = (
     [int(i.strip()) for i in os.environ.get("ADMINS", "1229852181").split(",")]
     if os.environ.get("ADMINS")
@@ -54,7 +54,7 @@ LINK_BYPASS = is_enabled(
     (os.environ.get("LINK_BYPASS", "False")), False
 )  # if true, urls will be bypassed
 # your shortener site domain
-BASE_SITE = os.environ.get("BASE_SITE", "urlspay.in")
+BASE_SITE = os.environ.get("BASE_SITE", "linkmonetizer.in")
 
 # For Admin use
 CHANNELS = is_enabled((os.environ.get("CHANNELS", "True")), True)
